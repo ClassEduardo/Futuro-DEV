@@ -12,10 +12,19 @@
    --white-letter: #fff;
 }
 
+
 body {
    background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+p {
+   font-size: 19px;
+   font-weight: 500;
+   font-family: 'Open Sans', sans-serif;
+   color: black;
+   line-height: 1.5;
 }
 
 .nav-menu h1 {
@@ -69,37 +78,55 @@ header {
 }
 
 .categoria-unica {
-   background-color: rgba(255, 255, 255, 0.25);
-   backdrop-filter: blur(7px);
+   background-color: rgba(255, 255, 255, 0.459);
+   backdrop-filter: blur(8px);
    border-radius: 5px;
-   border: 1px solid rgba(255, 255, 255, 0.30);
+   border: 1px solid rgba(255, 255, 255, 0.455);
 }
 
 .internal-content {
-   padding: 20px 50px;
+   padding: 25px 50px;
 }
 
 .cards-courses {
-   width: 280px;
+   width: 350px;
+   margin: 25px 0 10px 0;
+   background-color: rgba(0, 0, 0, 0.24);
+   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.568);
+   border-radius: 5px;
+   min-height: 440px;
+}
+
+.cards-courses, .cards-courses-description-bottom {
    display: flex;
    align-items: center;
    flex-direction: column;
-   padding: 20px 0 10px 0;
-   background-color: rgba(255, 255, 255, 0.30);
 }
 
 .cards-courses img {
    width: 100%;
+   border-radius: 5px 5px 0 0;
+   margin-bottom: 5px;
+}
+
+.cards-courses-description h1 {
+   color: black;
+   text-align: center;
+}
+
+.cards-courses-description-bottom p {
+   color: black;
+   font-size: 17px;
+   font-weight: 500;
 }
 
 .cards-courses-description-bottom img {
    width: 22px;
 }
 
-.cards-courses-description-bottom {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+.cards-courses-description-bottom h4 {
+   color: #ffbb3a;
+   font-size: 22px;
 }
 
 .cards-courses-description h1 {
