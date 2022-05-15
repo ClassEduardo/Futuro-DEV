@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins&family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
    padding: 0;
@@ -11,19 +12,24 @@
    --white-letter: #fff;
 }
 
+body {
+   background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 
-h1 {
+.nav-menu h1 {
    font-family: 'Roboto Slab', serif;
    font-weight: 600;
 }
 
-nav {
+.nav-menu {
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 
-ul {
+.nav-menu ul {
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -50,4 +56,21 @@ header {
    position: fixed;
    left: 0;
    right: 0;
+}
+
+.categorias-cursos {
+   padding: 110px 20px 0 20px;
+}
+
+.categoria-description h2 {
+   color: black;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+}
+
+.categoria-unica {
+   background-color: rgba(255, 255, 255, 0.25);
+   backdrop-filter: blur(7px);
+   border-radius: 5px;
+   border: 1px solid rgba(255, 255, 255, 0.19);
 }
